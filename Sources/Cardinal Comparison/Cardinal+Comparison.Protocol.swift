@@ -1,4 +1,4 @@
-public import Cardinal
-public import Comparison
+@_exported public import Cardinal
+@_exported public import Comparison
 
-extension Cardinal: Comparison.`Protocol` {}
+extension Cardinal: @retroactive Comparison.`Protocol` {}
