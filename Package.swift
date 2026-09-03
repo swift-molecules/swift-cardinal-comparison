@@ -18,11 +18,11 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/swift-atoms/swift-cardinal.git",
+            url: "https://github.com/swift-atoms/swift-cardinal",
             branch: "main"
         ),
         .package(
-            url: "https://github.com/swift-atoms/swift-comparison.git",
+            url: "https://github.com/swift-atoms/swift-comparison",
             branch: "main"
         ),
     ],
